@@ -11,7 +11,7 @@ public class Anfibio extends Animal {
 	public static int salamandras;
 	private String colorPiel;
 	private boolean venenoso;
-	private ArrayList<Anfibio> listado;
+	private static ArrayList<Anfibio> listado;
 	
 	public Anfibio() {
 		
