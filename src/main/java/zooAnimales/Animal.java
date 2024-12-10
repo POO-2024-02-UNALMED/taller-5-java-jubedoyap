@@ -25,7 +25,7 @@ public class Animal {
 	
 	public static int getTotalAnimales(){
 		
-		totalAnimales = Mamifero.cantidadMamiferos()+ Ave.cantidadAves()+Reptil.cantidadReptiles()+Pez.cantidadReptiles()+Anfibio.cantidadAnfibios();
+		totalAnimales = Mamifero.cantidadMamiferos()+ Ave.cantidadAves()+Reptil.cantidadReptiles()+Pez.cantidadPeces()+Anfibio.cantidadAnfibios();
 		return totalAnimales;
 		
 	}
@@ -89,7 +89,7 @@ public class Animal {
 
 	public void totalPorTipo() {
 		
-		System.out.println("Mamíferos: "+ Mamifero.cantidadMamiferos());
+		System.out.println("Mamiferos: "+ Mamifero.cantidadMamiferos());
 		System.out.println("Aves: "+ Ave.cantidadAves());
 		System.out.println("Reptiles: "+ Reptil.cantidadReptiles());
 		System.out.println("Peces: "+ Pez.cantidadPeces());
