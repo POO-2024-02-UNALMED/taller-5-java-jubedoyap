@@ -93,7 +93,7 @@ public class Animal {
 		System.out.println("Aves: "+ Ave.cantidadAves());
 		System.out.println("Reptiles: "+ Reptil.cantidadReptiles());
 		System.out.println("Peces: "+ Pez.cantidadPeces());
-		System.out.println("Anfibios: "+ Anfibio.cantidadSalamandras());
+		System.out.println("Anfibios: "+ Anfibio.cantidadAnfibios());
 	}
 	
 
