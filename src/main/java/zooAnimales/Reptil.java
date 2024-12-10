@@ -16,9 +16,9 @@ public class Reptil extends Animal {
 		
 	}
 	
-	public Reptil(int totalAnimales, String nombre, int edad, String habitat, String genero, Zona zona, String colorEscamas, int largoCola) {
+	public Reptil(String nombre, int edad, String habitat, String genero, String colorEscamas, int largoCola) {
 		
-		super(totalAnimales, nombre, edad, habitat, genero, zona);
+		super(nombre, edad, habitat, genero);
 		
 		this.colorEscamas = colorEscamas;
 		this.largoCola = largoCola;
@@ -61,17 +61,17 @@ public class Reptil extends Animal {
 	
 	/** método crearIguana**/
 	
-	public void crearIguana(int totalAnimales, String nombre, int edad, String genero, Zona zona) {
+	public void crearIguana(String nombre, int edad, String genero) {
 		
-		listado.add(new Reptil(totalAnimales, nombre, edad, "humedal", genero, zona, "verde", 3));
+		listado.add(new Reptil(nombre, edad, "humedal", genero, "verde", 3));
 		iguanas++;
 	}
 	
 	/** método crearSerpiente**/
 	
-	public void crearSerpiente(int totalAnimales, String nombre, int edad, String genero, Zona zona) {
+	public void crearSerpiente(String nombre, int edad, String genero) {
 		
-		listado.add(new Reptil(totalAnimales, nombre, edad, "jungla", genero, zona, "blanco", 1));
+		listado.add(new Reptil(nombre, edad, "jungla", genero, "blanco", 1));
 		serpientes++;
 	}
 	

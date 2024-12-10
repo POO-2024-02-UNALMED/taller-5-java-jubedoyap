@@ -4,7 +4,7 @@ import gestion.*;
 
 public class Animal {
 	
-	private int totalAnimales;
+	private static int totalAnimales;
 	private String nombre;
 	private int edad;
 	private String habitat;
@@ -15,23 +15,17 @@ public class Animal {
 		
 	}
 	
-	public Animal(int totalAnimales, String nombre, int edad, String habitat, String genero, Zona zona) {
-		this.totalAnimales = totalAnimales;
+	public Animal(String nombre, int edad, String habitat, String genero) {
 		this.nombre = nombre;
 		this.edad = edad;
 		this.habitat = habitat;
 		this.genero = genero;
-		this.zona[1] = zona;
 	}
 	
-	public void setTotalAnimales(int nuevoTotalAnimales) {
-		
-		totalAnimales = nuevoTotalAnimales ;
-		
-	}
 	
-	public int getTotalAnimales(){
+	public static int getTotalAnimales(){
 		
+		totalAnimales = Mamifero.cantidadMamiferos()+ Ave.cantidadAves()+Reptil.cantidadReptiles()+Pez.cantidadReptiles()+Anfibio.cantidadAnfibios();
 		return totalAnimales;
 		
 	}

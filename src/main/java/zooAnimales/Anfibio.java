@@ -16,9 +16,9 @@ public class Anfibio extends Animal {
 		
 	}
 	
-	public Anfibio(int totalAnimales, String nombre, int edad, String habitat, String genero, Zona zona, String colorPiel, boolean venenoso) {
+	public Anfibio(String nombre, int edad, String habitat, String genero, String colorPiel, boolean venenoso) {
 		
-		super(totalAnimales, nombre, edad, habitat, genero, zona);
+		super(nombre, edad, habitat, genero);
 		
 		this.colorPiel= colorPiel;
 		this.venenoso = venenoso;
@@ -60,17 +60,17 @@ public class Anfibio extends Animal {
 	
 	/** método crearRana**/
 	
-	public void crearRana(int totalAnimales, String nombre, int edad, String genero, Zona zona) {
+	public void crearRana(String nombre, int edad, String genero) {
 		
-		listado.add(new Anfibio(totalAnimales, nombre, edad, "selva", genero, zona, "rojo", true));
+		listado.add(new Anfibio(nombre, edad, "selva", genero, "rojo", true));
 		ranas++;
 	}
 	
 	/** método crearSalamandra**/
 	
-	public void crearSalamandra(int totalAnimales, String nombre, int edad, String genero, Zona zona) {
+	public void crearSalamandra(String nombre, int edad, String genero) {
 		
-		listado.add(new Anfibio(totalAnimales, nombre, edad, "océano", genero, zona, "negro", false));
+		listado.add(new Anfibio(nombre, edad, "océano", genero,"negro", false));
 		salamandras++;
 	}
 	

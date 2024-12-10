@@ -16,9 +16,9 @@ public class Pez extends Animal {
 		
 	}
 	
-	public Pez(int totalAnimales, String nombre, int edad, String habitat, String genero, Zona zona, String colorEscamas, int cantidadAletas) {
+	public Pez(String nombre, int edad, String habitat, String genero, String colorEscamas, int cantidadAletas) {
 		
-		super(totalAnimales, nombre, edad, habitat, genero, zona);
+		super(nombre, edad, habitat, genero);
 		
 		this.colorEscamas = colorEscamas;
 		this.cantidadAletas = cantidadAletas;
@@ -60,17 +60,17 @@ public class Pez extends Animal {
 	
 	/** método crearSalmones**/
 	
-	public void crearSalmon(int totalAnimales, String nombre, int edad, String genero, Zona zona) {
+	public void crearSalmon(String nombre, int edad, String genero) {
 		
-		listado.add(new Pez(totalAnimales, nombre, edad, "océano", genero, zona, "rojo", 6));
+		listado.add(new Pez(nombre, edad, "océano", genero, "rojo", 6));
 		salmones++;
 	}
 	
 	/** método crearBacalao**/
 	
-	public void crearBacalao(int totalAnimales, String nombre, int edad, String genero, Zona zona) {
+	public void crearBacalao(String nombre, int edad, String genero) {
 		
-		listado.add(new Pez(totalAnimales, nombre, edad, "océano", genero, zona, "gris", 6));
+		listado.add(new Pez(nombre, edad, "océano", genero, "gris", 6));
 		bacalaos++;
 	}
 	

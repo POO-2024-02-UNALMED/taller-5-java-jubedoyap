@@ -15,9 +15,9 @@ public class Ave extends Animal {
 		
 	}
 	
-	public Ave(int totalAnimales, String nombre, int edad, String habitat, String genero, Zona zona, String colorPlumas) {
+	public Ave(String nombre, int edad, String habitat, String genero, String colorPlumas) {
 		
-		super(totalAnimales, nombre, edad, habitat, genero, zona);
+		super(nombre, edad, habitat, genero);
 		
 		
 		this.colorPlumas = colorPlumas;
@@ -49,17 +49,17 @@ public class Ave extends Animal {
 	
 	/** método crearHalcon**/
 	
-	public void crearHalcon(int totalAnimales, String nombre, int edad, String genero, Zona zona) {
+	public void crearHalcon(String nombre, int edad, String genero) {
 		
-		listado.add(new Ave(totalAnimales, nombre, edad, "montañas", genero, zona, "café glorioso"));
+		listado.add(new Ave(nombre, edad, "montañas", genero, "café glorioso"));
 		halcones++;
 	}
 	
 	/** método crearAguila**/
 	
-	public void crearAguila(int totalAnimales, String nombre, int edad, String genero, Zona zona) {
+	public void crearAguila(String nombre, int edad, String genero) {
 		
-		listado.add(new Ave(totalAnimales, nombre, edad, "monatañas", genero, zona, "blanco y amarillo"));
+		listado.add(new Ave(nombre, edad, "monatañas", genero, "blanco y amarillo"));
 		aguilas++;
 	}
 	
