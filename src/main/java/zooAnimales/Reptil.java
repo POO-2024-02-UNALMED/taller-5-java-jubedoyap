@@ -11,7 +11,7 @@ public class Reptil extends Animal {
 	public static int serpientes;
 	private String colorEscamas;
 	private int largoCola;
-	private ArrayList<Reptil> listado;
+	private static ArrayList<Reptil> listado;
 	
 	public Reptil() {
 		

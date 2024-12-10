@@ -11,7 +11,7 @@ public class Mamifero extends Animal {
 	public static int leones;
 	private boolean pelaje;
 	private int patas;
-	private ArrayList<Mamifero> listado;
+	private static ArrayList<Mamifero> listado;
 	
 	public Mamifero() {
 		

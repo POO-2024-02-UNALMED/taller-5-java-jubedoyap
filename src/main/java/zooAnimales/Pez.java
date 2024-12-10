@@ -11,7 +11,7 @@ public class Pez extends Animal {
 	public static int bacalaos;
 	private String colorEscamas;
 	private int cantidadAletas;
-	private ArrayList<Pez> listado;
+	private static ArrayList<Pez> listado;
 	
 	public Pez() {
 		

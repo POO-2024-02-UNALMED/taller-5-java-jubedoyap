@@ -10,7 +10,7 @@ public class Ave extends Animal {
 	public static int halcones;
 	public static int aguilas;
 	private String colorPlumas;
-	private ArrayList<Ave> listado;
+	private static ArrayList<Ave> listado;
 	
 	public Ave() {
 		
