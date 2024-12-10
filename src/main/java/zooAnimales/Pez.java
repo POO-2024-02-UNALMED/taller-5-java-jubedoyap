@@ -60,14 +60,14 @@ public class Pez extends Animal {
 	}
 	
 	
-	public void crearSalmon(String nombre, int edad, String genero) {
+	public static void crearSalmon(String nombre, int edad, String genero) {
 		
 		listado.add(new Pez(nombre, edad, "oceano", genero, "rojo", 6));
 		salmones++;
 	}
 	
 	
-	public void crearBacalao(String nombre, int edad, String genero) {
+	public static void crearBacalao(String nombre, int edad, String genero) {
 		
 		listado.add(new Pez(nombre, edad, "oceano", genero, "gris", 6));
 		bacalaos++;
