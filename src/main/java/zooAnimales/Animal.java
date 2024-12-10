@@ -86,7 +86,7 @@ public class Animal {
 		
 	}
 	
-	/** método total por tipo**/
+
 	public void totalPorTipo() {
 		
 		System.out.println("Mamíferos: "+ Mamifero.cantidadMamiferos());
@@ -96,22 +96,22 @@ public class Animal {
 		System.out.println("Anfibios: "+ Anfibio.cantidadSalamandras());
 	}
 	
-	/** método toString**/
+
 	public String toString() {
 		
 		if (zona != null) {
 			
-			return "Mi nombre es " + nombre +", tengo una edad de " + edad + ", habito en " + habitat + " y mi género es " + genero + 
+			return "Mi nombre es " + nombre +", tengo una edad de " + edad + ", habito en " + habitat + " y mi genero es " + genero + 
 					", la zona en la que me ubico es " + zona[1].getNombre() + ", en el " + zona[1].getZoo().getNombre() + ".";
 					
 		}
 		else {
 			
-			return "Mi nombre es " + nombre +", tengo una edad de " + edad + ", habito en " + habitat + " y mi género es " + genero;
+			return "Mi nombre es " + nombre +", tengo una edad de " + edad + ", habito en " + habitat + " y mi genero es " + genero;
 		}
 	}
 	
-	/** método movimiento**/
+
 	public static String movimiento() {
 		
 		return "desplazarse";

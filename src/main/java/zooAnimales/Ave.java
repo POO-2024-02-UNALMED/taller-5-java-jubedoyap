@@ -41,21 +41,18 @@ public class Ave extends Animal {
 		return listado;
 	}
 	
-	/**método movimiento**/
 	public static String movimiento() {
 		
 		return "volar";
 	}
 	
-	/** método crearHalcon**/
 	
 	public void crearHalcon(String nombre, int edad, String genero) {
 		
-		listado.add(new Ave(nombre, edad, "montañas", genero, "café glorioso"));
+		listado.add(new Ave(nombre, edad, "montañas", genero, "cafe glorioso"));
 		halcones++;
 	}
 	
-	/** método crearAguila**/
 	
 	public void crearAguila(String nombre, int edad, String genero) {
 		
@@ -64,7 +61,6 @@ public class Ave extends Animal {
 	}
 	
 	
-	/** método cantidadAves**/
 	public static int cantidadAves() {
 		
 		return halcones + aguilas;

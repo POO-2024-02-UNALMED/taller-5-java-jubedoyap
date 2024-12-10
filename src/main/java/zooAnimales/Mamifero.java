@@ -53,7 +53,6 @@ public class Mamifero extends Animal {
 		return listado;
 	}
 	
-	/** método crearCaballo**/
 	
 	public void crearCaballo(String nombre, int edad, String genero) {
 		
@@ -61,7 +60,6 @@ public class Mamifero extends Animal {
 		caballos++;
 	}
 	
-	/** método crearLeon**/
 	
 	public void crearLeon(String nombre, int edad, String genero) {
 		
@@ -70,7 +68,6 @@ public class Mamifero extends Animal {
 	}
 	
 	
-	/** método cantidadMamiferos**/
 	public static int cantidadMamiferos() {
 		
 		return caballos + leones;

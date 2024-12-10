@@ -59,7 +59,6 @@ public class Reptil extends Animal {
 		return "reptar";
 	}
 	
-	/** método crearIguana**/
 	
 	public void crearIguana(String nombre, int edad, String genero) {
 		
@@ -67,7 +66,6 @@ public class Reptil extends Animal {
 		iguanas++;
 	}
 	
-	/** método crearSerpiente**/
 	
 	public void crearSerpiente(String nombre, int edad, String genero) {
 		
@@ -76,7 +74,6 @@ public class Reptil extends Animal {
 	}
 	
 	
-	/** método cantidadReptiles**/
 	public static int cantidadReptiles() {
 		
 		return iguanas + serpientes;

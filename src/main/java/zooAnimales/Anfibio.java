@@ -58,7 +58,7 @@ public class Anfibio extends Animal {
 		return "saltar";
 	}
 	
-	/** método crearRana**/
+
 	
 	public void crearRana(String nombre, int edad, String genero) {
 		
@@ -66,16 +66,14 @@ public class Anfibio extends Animal {
 		ranas++;
 	}
 	
-	/** método crearSalamandra**/
 	
 	public void crearSalamandra(String nombre, int edad, String genero) {
 		
-		listado.add(new Anfibio(nombre, edad, "océano", genero,"negro", false));
+		listado.add(new Anfibio(nombre, edad, "selva", genero,"negro y amarillo", false));
 		salamandras++;
 	}
 	
 	
-	/** método cantidadAnfibios**/
 	public static int cantidadSalamandras() {
 		
 		return ranas + salamandras;

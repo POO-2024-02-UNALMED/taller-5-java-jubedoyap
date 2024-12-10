@@ -50,14 +50,14 @@ public class Zona {
 		
 	}
 	
-	/** método agregarAnimales **/
+	
 	public void agregarAnimales(Animal nuevoAnimal) {
 		
 		animales.add(nuevoAnimal);
 		
 	}
 	
-	/** método cantidadAnimales **/
+
 	public int cantidadAnimales() {
 		
 		return animales.size();

@@ -48,7 +48,7 @@ public class Zoologico {
 		
 	}
 	
-	/** método AgregarZonas **/
+
 	
 	public void AgregarZonas(Zona nuevaZona) {
 		
@@ -56,7 +56,7 @@ public class Zoologico {
 		
 	}
 	
-	/**método cantidadTotalAnimales**/
+
 	
 	public int cantidadTotalAnimales() {
 		
