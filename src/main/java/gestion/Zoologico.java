@@ -50,7 +50,7 @@ public class Zoologico {
 	
 
 	
-	public void AgregarZonas(Zona nuevaZona) {
+	public void agregarZonas(Zona nuevaZona) {
 		
 		zonas.add(nuevaZona);
 		
@@ -63,7 +63,7 @@ public class Zoologico {
 		int totalAnimales = 0;
 		
 		for (int i = 0; i< zonas.size(); i++) {
-			totalAnimales += zonas.get(i).cantidadAnimales(); //Se entra a cada zona y se llama el método que retorna la cantidad de animales que hay en la zona
+			totalAnimales += zonas.get(i).cantidadAnimales();
 		}
 		
 		return totalAnimales;
